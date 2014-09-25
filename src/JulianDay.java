@@ -49,7 +49,7 @@ public class JulianDay {
 	// Calculation of the julian date
 	jday= Math.floor(365.25*(rev_year + 4716.)) +
 			Math.floor(30.6001 * (rev_month + 1)) + da + intb - 1524.5 + UTCCorr;
-		
+//	jday = 2452930.312847;
 	
 	double delta_t = 0;  // Difference between earth rotation time and terrestrial time, fuck it
 	ephemerisDay = jday + (delta_t / (double)86400.);

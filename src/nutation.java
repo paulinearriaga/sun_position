@@ -140,7 +140,7 @@ public class nutation {
 				u*(  -39.05 + u*( 7.12 + u*(  27.87 + u*(  5.79 + u*2.45))))))))); //YOLO
 		
 		trueObliquity = meanObliquity / 3600. + obliquity;
-		
+		System.out.println(trueObliquity);
 	
 		
 		
